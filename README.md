@@ -13,7 +13,7 @@ Tecnologias:
 ![image](https://user-images.githubusercontent.com/89872652/157483848-d73d51ff-37d3-49d8-89e9-d68dd37c88ab.png)
 
 
-Para testar o proejt, acesseo link: https://codepen.io/lucas-dallavalle/pen/XWzwVbE
+Para testar o proejt, acesseo link:  https://codepen.io/lucas-dallavalle/full/XWzwVbE
 
 
 # Autor

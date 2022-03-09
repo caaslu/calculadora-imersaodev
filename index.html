@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Calculadora</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+
+	<script>
+		function converterDolar() {
+  var valorElemento = document.getElementById("valor");
+  var valor = valorElemento.value;
+  var valorEmDolarNumerico = parseFloat(valor);
+
+  var valorRealEmDolar = valorEmDolarNumerico / 5;
+
+  var elementoValorConvertido = document.getElementById("valorConvertido");
+  var valorConvertido =
+    "O Resultado em Dolar é $" + valorRealEmDolar.toFixed(2);
+  elementoValorConvertido.innerHTML = valorConvertido;
+}
+
+function converterEuro() {
+  var valorElemento = document.getElementById("valor");
+  var valor = valorElemento.value;
+  var valorEmEuroNumerico = parseFloat(valor);
+
+  var valorRealEmEuro = valorEmEuroNumerico / 5.53;
+
+  var elementoValorConvertido = document.getElementById("valorConvertido");
+  var valorConvertido = "O Resultado em Euro é € " + valorRealEmEuro.toFixed(2);
+  elementoValorConvertido.innerHTML = valorConvertido;
+}
+
+	</script>
+</head>
+
+
+<body>
+
+	<div class="container">
+  <div class="">
+    <h1 class="page-title">
+      Conversor de moedas
+    </h1>
+    <p class="page-subtitle">
+      Descubra os valores em Dolar e Euro
+    </p>
+    <label for="moeda">Insira o valor em Real:</label><br>
+    <input type="number" id="valor" size="2" /><br>
+     <button class="botao" type="submit" onclick="converterDolar()">Converter em Dolar</button>
+  	<button class="botao" type="submit" onclick="converterEuro()">Converter em Euro</button>
+    <h2 id="valorConvertido"></h2>
+    <img src="http://bricksdesign.com.br/wp-content/uploads/2022/03/LDB.svg" class="page-logo-ldb" alt="">
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
+    <p style="font-size: 12px; font-style: italic; color: gray; padding-top: 30px; margin-bottom: -35px; ">cotação do dolar baseado em R$5,00 e o euro em R$5,53</p>
+    
+  </div>
+</div>
+
+<a href="https://alura.com.br/" target="_blank">
+  <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+
+</body>
+</html>

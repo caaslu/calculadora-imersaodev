@@ -7,7 +7,7 @@ Tecnologias:
 - HTML
 - CSS
 - JavaScript
-Codepen
+- Codepen
 
 
 ![image](https://user-images.githubusercontent.com/89872652/157483848-d73d51ff-37d3-49d8-89e9-d68dd37c88ab.png)

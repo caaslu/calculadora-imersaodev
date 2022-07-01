@@ -1,5 +1,5 @@
-# Calculadora - ImersãoDev
-Calculadora de real para dolar e euro
+# Conversor de Moedas - ImersãoDev
+Calculadora de real para dolar e euro (Estático)
 
 Projet criado no evento ImersãoDev com @alura @rafaballerini @peas
 

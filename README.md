@@ -1,7 +1,7 @@
 # Conversor de Moedas - ImersãoDev
 Calculadora de real para dolar e euro (Estático)
 
-Projet criado no evento ImersãoDev com @alura @rafaballerini @peas
+Projeto criado no evento ImersãoDev com @alura @rafaballerini @peas
 
 Tecnologias:
 - HTML
